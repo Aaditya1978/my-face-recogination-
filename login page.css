@@ -1,0 +1,77 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    background :url(login\ image\ 2.jpg) no-repeat;
+     background-size: cover;
+}
+.LOGIN{
+    width: 280px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color:white;
+}
+.LOGIN h2{
+    float: left;
+    font-size: 40px;
+    border-bottom:6px solid #4caf40;
+    margin-bottom: 50px;
+    padding :13px;
+}
+.id{
+    width: 100%;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 8px 0;
+    margin: 8px 0;
+    border-bottom:1px solid;
+}
+.pass{
+    width: 100%;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 8px 0;
+    margin: 8px 0;
+    border-bottom:1px solid;
+}
+.id i{
+    width: 26px;
+    float: left;
+    text-align: center;
+}
+.pass i{
+    width: 26px;
+    float: left;
+    text-align: center;
+}
+.id input{
+border: none;
+outline: none;
+background: none;
+color: white;
+font-size: 18px;
+width: 80px;
+float: left;
+margin: 10px;
+}
+.pass input{
+border: none;
+outline: none;
+background: none;
+color:white;
+font-size: 18px;
+width: 80px;
+float: left;
+margin: 10px;
+}
+.button{
+    width: 100%;
+    background: none;
+    border: 2px solid #4caf40;
+    color: white;
+    padding: 5px;
+    font-size: 18 px;
+    cursor: pointer;
+}
